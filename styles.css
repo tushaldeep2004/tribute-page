@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    border-radius: 10px;
+}
+
+main{
+    background: gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.heading{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+.heading h1{
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+@media (max-width: 600px){
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading{
+        height: 150px;
+        text-align: center;
+    }
+}
+@media (max-width: 400px){
+    .heading h1{
+        font-size: 30px;
+    }
+    .heading{
+        height: 120px;
+        text-align: center;
+    }
+}
+@media (max-width: 300px){
+    .heading h1{
+        font-size: 20px;
+    }
+    .heading p {
+        font-size: smaller;
+    }
+}
+.heading p{
+    font-size: larger;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.photo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.photoDescription{
+    margin: 10px;
+}
+.timeline{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+}
+.timeline h2{
+    margin-top: 20px;
+}
+.timeline ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+.timeline p{
+    font-style: italic;
+}
+.information{
+    text-align: center;
+}
